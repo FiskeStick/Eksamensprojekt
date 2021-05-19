@@ -1,0 +1,185 @@
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap'); /* OSWALD */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); /* LATO */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+section {
+    height: 50vh;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+section > h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+/* COLOR */
+
+.color-box1 {
+    width: 15%;
+    height: 30vh;
+    background-color: #0d76bd;
+    float: left;
+    margin-left: 30%;
+}
+
+.color-box2 {
+    width: 15%;
+    height: 30vh;
+    background-color: #58585a;
+    float: left;
+    margin-left: 12rem;
+}
+
+.color-box1 > p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 20px;
+}
+
+.color-box2 > p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 20px;
+}
+
+/* FONTS */
+
+.font-box1 {
+    width: 30%;
+    height: 22rem;
+    background-color: #58585a;
+    float: left;
+    margin-left: 10rem;
+}
+
+.font-box2 {
+    width: 30%;
+    height: 22rem;
+    background-color: #0d76bd;
+    float: left;
+    margin-left: 30rem;
+}
+
+.font-box1 > h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-box1 > h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-box1 > h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-box1 > h4 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-box1 > h5 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-box1 > h6 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-box1 > p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-box2 > h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.font-box2 > h2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.font-box2 > h3 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.font-box2 > h4 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.font-box2 > h5 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.font-box2 > h6 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.font-box2 > p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+/* SoMe */
+.somebox {
+    width: 20%;
+    height: 10vh;
+    margin-left: 40%;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 8vh;
+    background-color: #0d76bd;
+    margin-top: 10%;
+}
+
+header > a > img {
+    width: 8%;
+    margin-left: 8px;
+    margin-top: 2px;
+    float: left;
+}
+
+header > ul {
+    display: flex;
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 2%;
+}
+
+header > ul > li a {
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+header > ul > li a:hover {
+    color: grey;
+}
