@@ -23,7 +23,7 @@ section > h1 {
 
 .color-box1 {
     width: 15%;
-    height: 30vh;
+    height: 280px;
     background-color: #0d76bd;
     float: left;
     margin-left: 30%;
@@ -31,7 +31,7 @@ section > h1 {
 
 .color-box2 {
     width: 15%;
-    height: 30vh;
+    height: 280px;
     background-color: #58585a;
     float: left;
     margin-left: 12rem;
@@ -57,7 +57,7 @@ section > h1 {
 
 .font-box1 {
     width: 30%;
-    height: 22rem;
+    height: 350px;
     background-color: #58585a;
     float: left;
     margin-left: 10rem;
@@ -65,10 +65,10 @@ section > h1 {
 
 .font-box2 {
     width: 30%;
-    height: 22rem;
+    height: 350px;
     background-color: #0d76bd;
     float: left;
-    margin-left: 30rem;
+    margin-left: 26rem;
 }
 
 .font-box1 > h1 {
