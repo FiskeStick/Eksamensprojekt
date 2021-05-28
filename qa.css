@@ -101,6 +101,11 @@ p{
     display: block;
 }
 
+.container {
+  height: 95.7vh;
+  width: 100%;
+}
+
 
 .collapsible {
   font-size: 50px;
