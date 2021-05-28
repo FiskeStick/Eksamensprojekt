@@ -102,9 +102,30 @@ p{
 }
 
 .container {
-  height: 95.7vh;
+  height: 69.5vh;
   width: 100%;
 }
+
+.container2 {
+height: 100vh;
+  width: 100%;
+}
+
+.container3 {
+height: 100vh;
+  width: 100%;
+}
+
+.container4 {
+height: 100vh;
+  width: 100%;
+}
+
+.container5 {
+height: 100vh;
+  width: 100%;
+}
+
 
 
 .collapsible {
@@ -150,7 +171,7 @@ margin: 0 auto;
     justify-content: center;
     font-size: 50px;
 }
-
+/*
 .footer {
 width: 100%;
 height: 15vh;
@@ -159,7 +180,7 @@ margin-top: 45px;
 }
 
 
-
+*/
 
 
 
