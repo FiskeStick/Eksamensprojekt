@@ -115,7 +115,7 @@ header > h3:nth-child(3) {
 }
 
 @keyframes Transition {
-   0%{background-color: #0d76bd} 
+   0%{background-color: #0d76bd}
    100%{background-color: white;}
 }
 
