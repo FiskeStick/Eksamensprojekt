@@ -9,6 +9,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -42,6 +43,38 @@ header > h3:nth-child(3) {
     font-size: 14px;
     margin: 0.6rem;
     margin-left: 37%;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 400px;
+  width: 15%;
+  height: 202px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.sidebar > ul {
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar > ul li {
+  font-size: 16px;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.sidebar > ul li:hover {
+  background-color: red;
+  cursor: pointer;
 }
 
  h2 {
@@ -101,28 +134,28 @@ p{
     display: block;
 }
 
-.container {
+#container {
   height: 69.5vh;
   width: 100%;
 }
 
-.container2 {
-height: 100vh;
+#container2 {
+  height: 100vh;
   width: 100%;
 }
 
-.container3 {
-height: 100vh;
+#container3 {
+  height: 100vh;
   width: 100%;
 }
 
-.container4 {
-height: 100vh;
+#container4 {
+  height: 100vh;
   width: 100%;
 }
 
-.container5 {
-height: 100vh;
+#container5 {
+  height: 100vh;
   width: 100%;
 }
 
@@ -177,6 +210,7 @@ width: 100%;
 height: 15vh;
 background: black;
 margin-top: 45px;
+float: left;
 }
 
 
