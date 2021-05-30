@@ -43,7 +43,19 @@
       <li onclick="sec4()">Shipping</li>
       <li onclick="sec5()">Warranty</li>
     </ul>
-  </div>
+  </div><!--sidebar-->
+
+  <button id="btn" onclick="on()" type="button" name="button">Have questions? click here</button>
+  <div id="overlay">
+    <img src="img/close.png" onclick="off()" alt="close">
+    <p>Email</p>
+    <input placeholder="Write email here" id="email" type="email" name="Email" value="">
+    <p>Question</p>
+    <textarea name="" id="text" cols="30" rows="10"></textarea>
+    <input type="submit" value="Submit" id="submit">
+
+  </div><!--overlay-->
+
   <h2>FAQ</h2>
   &nbsp
   <button type="button" class="collapsible"><p>What is the price of the QuadSAT software?</p></button>
