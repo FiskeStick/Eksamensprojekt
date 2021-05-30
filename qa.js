@@ -52,6 +52,6 @@ function off() {
   document.getElementById('overlay').style.display = "none";
 }
 
-
-
+//med inspiration fra:
+//https://discord.com/channels/@me/754631226274349077/848570269122560051
 //Jakob
