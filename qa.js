@@ -14,6 +14,7 @@ console.log(i);
     }
   });
 }
+
 //med inspiration fra:
 // https://www.w3schools.com/howto/howto_js_collapsible.asp
 // Christian H
@@ -42,7 +43,8 @@ function sec5() {
   elmnt4.scrollIntoView();
 }
 
-
+//med inspiration fra:
+//https://www.w3schools.com/jsref/met_element_scrollintoview.asp
 // Stefan E.J
 
 function on() {
