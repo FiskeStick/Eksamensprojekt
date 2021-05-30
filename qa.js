@@ -15,7 +15,7 @@ console.log(i);
   });
 }
 //med inspiration fra:
-
+// https://www.w3schools.com/howto/howto_js_collapsible.asp
 // Christian H
 
 
