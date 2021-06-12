@@ -427,6 +427,7 @@ header > h3:nth-child(3) {
     top: 42%;
     display: none;
   }
+
   #overlay > img{
     float: right;
     padding: 10px;
@@ -472,7 +473,7 @@ header > h3:nth-child(3) {
 .h2-qa {
     text-align: center;
     font-size: 50px;
-
+    position: relative;
     }
 
 .content > p{
