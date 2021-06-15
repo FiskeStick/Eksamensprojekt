@@ -399,6 +399,7 @@ header > h3:nth-child(3) {
   }
 
 
+
   /*Overlay*/
   #btn{
     position: fixed;
@@ -424,7 +425,7 @@ header > h3:nth-child(3) {
     background-color: white;
     position: fixed;
     right: 3%;
-    top: 42%;
+    top: 56%;
     display: none;
   }
 
